@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="blood">
   <div class="container">
     <header class="header">
       <a href="/" class="logo-link">
-        <img width="46" height="71" src="D:\VS_Code\project\img\logo.png" alt="logo: venom" class="logo-image" />
+        <img width="46" height="71" src="logo.png"  alt="logo: venom" class="logo-image" />
       </a>
       <nav class="nav">
         <ul class="nav-menu">
@@ -36,19 +36,31 @@
     <div class="film">
       <div class="film-text">
         <span class="film-date">16 сентября 2021</span>
-        <img src="img/venom-2.svg" alt="logo: venom-2" class="film-logo">
+        <img src="venom-2.svg" alt="logo: venom-2" class="film-logo">
         <p class="film-description">
           В настырном журналисте по-прежнему живет симбиот. Том Харди в образе обаятельного суперзлодея из комиксов Marvel.
         </p>
       </div>
-      <!-- /.hero-text -->
+      <!-- /.film-text -->
+      <div class="button-group">
+        <button class="button button-primary">
+          <img width="15" src="play.svg" alt="icon: play" class="button-icon">
+          <span class="button-text">смотреть трейлер</span>
+        </button>
+        <a href="trailer.html" class="button button-link">
+          <img width="15" src="ticket.svg" alt="icon: ticket" class="button-icon">
+          <span class="button-text">билеты на премьеру</span>
+        </a>
+      </div>
+      <!-- /.button-group -->
     </div>
-    <!-- /.hero -->
+    <!-- /.film -->
     
     </div>
     </div>
   </div>
   <!-- /.container -->
+  <img src="venom.png" alt="photo: venom" class="venom">
 </body>
 
 </html>
